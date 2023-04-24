@@ -22,15 +22,6 @@ const props = defineProps(["projectItem", "index"]);
   display: flex;
    align-items: start;
 }
-/* .projectInfo{
-   box-sizing: border-box;
-  margin: auto;
- border: 3px solid #73AD21;
-  width: 400px;
- float: left;
-  text-align: left;
-  align-items: flex-start;
-} */
 .projectTitle {
   overflow: hidden;
   max-height: 48px;
@@ -58,6 +49,7 @@ const props = defineProps(["projectItem", "index"]);
   color: #5996d7;
 }
 .projectInfo {
+  width:500px;
   font-size: 20px;
   padding-left: 70px;
 
