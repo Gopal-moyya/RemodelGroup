@@ -79,3 +79,22 @@ export const projects = {
         },
     ]
 }
+export const Contacts={
+    bannerImage: "require('@/assets/products/product-banner.jpg')",
+    contact_details:[
+        {
+            title:"Company name",
+            
+            address:{
+                country:"ABC",
+                pincode:"123456",
+                door_no:"1-123",
+                telephone:"+99 123-456-789",
+            },
+            relatedurls:{
+                url1:"info@abcd",
+                url2:"info@xyz"
+            }
+        }
+    ]
+}
