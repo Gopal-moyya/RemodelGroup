@@ -53,3 +53,29 @@ export const homeData = {
         }
     ]
 }
+export const projects = {
+    bannerImage: require('@/assets/products/product-banner.jpg'),
+    title: 'Projects',
+    tagline: 'Silicone Roofing TG',
+    desc1:'Description',
+    projects: [
+        {
+            title: 'Door Silicone Roofing TG aan te brengen op het dak van het Pivot Park in Oss, zal de temperatuur van het ',
+            id: 'Door Silicone Roofing TG aan te brengen op het dak van het Pivot Park in Oss, zal de temperatuur van het ',
+            desc: 'Door Silicone Roofing TG aan te brengen op het dak van het Pivot Park in Oss, zal de temperatuur van het  description vot Park in Oss, zal de temperatuur van het  descriptionvot Park in Oss, zal de temperatuur van het  description',
+            logo: require('@/assets/projects/project1.jpg'),
+        },
+        {
+            title: 'Door Silicone Roofing TG aan te brengen op het dak van het Pivot Park in Oss, zal de temperatuur van het ',
+            id: 'Door Silicone Roofing TG aan te brengen op het dak van het Pivot Park in Oss, zal de temperatuur van het ',
+            desc: 'Door Silicone Roofing TG aan te brengen op het dak van het Pivot Park in Oss, zal de temperatuur van het  description vot Park in Oss, zal de temperatuur van het  descriptionvot Park in Oss, zal de temperatuur van het  description',
+            logo: require('@/assets/projects/project2.jpg'),
+        },
+        {
+            title: 'Product 3',
+            id: 'product3',
+            desc: 'product description',
+            logo: require('@/assets/projects/project3.jpg'),
+        },
+    ]
+}
