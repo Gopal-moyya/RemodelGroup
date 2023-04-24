@@ -23,6 +23,7 @@ nav a{
   color: #000000;
   padding-right: 50px;
   text-align: right;
+  font-size: 25px;
 }
 
 nav {

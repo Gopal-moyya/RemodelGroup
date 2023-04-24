@@ -1,38 +1,31 @@
 <template>
-  <div class="home"> 
-    <video loop width="1920" height="869" autoplay="autoplay" :src='video' data-ready="true"></video>
-    <ul>
-    <ListItem
-      v-for="item in data"
-      :data = item
-      :key="item.id"
-    />
-    </ul>
+  <div class="home">
+    <div class="video">
+      <video loop autoplay="autoplay" width="1920" :src='data.video' data-ready="true"></video>
+    </div>
+    <div class="list">
+      <list-view origin="homelist" :listItems="data.homelist.items"></list-view>
+    </div>
   </div>
 </template>
 
-<script>
-// @ is an alias to /src
-import ListItem from '@/components/ListItem.vue'
+<script setup>
+import { ListView } from "@/components";
 import {homeData} from '@/lib/staticData.js'
-
-export default {
-  name: 'HomeView',
-  data(){
-    return {
-      data : homeData.items,
-      video: "http://commondatastorage.googleapis.com/gtv-videos-bucket/sample/BigBuckBunny.mp4"
-    }
-  },
-  components: {
-    ListItem
-  }
-}
+import { reactive } from 'vue'
+const data = reactive({
+    homelist: homeData,
+    video: "http://commondatastorage.googleapis.com/gtv-videos-bucket/sample/BigBuckBunny.mp4"
+})
 </script>
 
 <style scoped>
-ul{
-  display: flex;
+.video {
+  width: 1920px;
+  height: 869px;
+}
+.list {
+ margin-left: 138px;
 }
 </style>
 
