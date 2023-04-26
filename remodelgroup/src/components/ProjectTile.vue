@@ -9,7 +9,7 @@
       <a class="projectLink" href="props.productItem.link">Project link</a>
     </div>
   </div>
-  <div class="endLine"><hr></div>
+  <div class="endLine"><hr /></div>
 </template>
 <script setup>
 import { defineProps } from "vue";
@@ -20,7 +20,12 @@ const props = defineProps(["projectItem", "index"]);
 .outer {
   cursor: pointer;
   display: flex;
-   align-items: start;
+  align-items: start;
+}
+.projectImage {
+  width: 380px;
+  height: 250px;
+  box-shadow: 5px 5px 10px rgb(20, 20, 20);
 }
 .projectTitle {
   overflow: hidden;
@@ -49,13 +54,11 @@ const props = defineProps(["projectItem", "index"]);
   color: #5996d7;
 }
 .projectInfo {
-  width:500px;
+  width: 600px;
   font-size: 20px;
   padding-left: 70px;
-
-  
 }
-.endLine{
+.endLine {
   margin-top: 30px;
 }
 </style>

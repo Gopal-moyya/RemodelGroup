@@ -2,8 +2,8 @@ export const products = {
     bannerImage: require('@/assets/projects/project-banner.jpg'),
     title: 'Our Products',
     tagline: 'Tagline for the banner',
-    desc1: 'Description 1',
-    desc2: 'Description 2',
+    desc1: 'Het assortiment van de Silicone Roofing TG bestaat uit de dakcoating en een aantal Silicone Roofing TG Fleece producten die samen zorgen voor een duurzame, naadloze dakafwerking.',
+    desc2: 'De Silicone Roofing TG Fleece wordt toegepast voor het overbruggen van ondeugdelijke ondergronden, als aansluiting tussen verschillende materialen en voor het versterken en verduurzamen van kritische details. Samen met de afwerking met Silicone Roofing TG dakcoating met de unieke Triple Guard Technology kun je een langere levensduur van bestaande dakbedekkingen realiseren tot wel 25 jaar.',
     products: [
         {
             title: 'Product 1',
@@ -57,7 +57,7 @@ export const projects = {
     bannerImage: require('@/assets/projects/project-banner.jpg'),
     title: 'Projects',
     tagline: 'Silicone Roofing TG',
-    desc1:'Description',
+    desc1:'Een greep uit de projecten die zijn uitgevoerd met Silicone Roofing TG.',
     projects: [
         {
             title: 'Door Silicone Roofing TG aan te brengen op het dak van het Pivot Park in Oss, zal de temperatuur van het ',

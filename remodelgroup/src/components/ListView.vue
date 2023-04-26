@@ -20,6 +20,8 @@ const props = defineProps(['listItems', 'origin'])
 .listC{ 
     display: flex;
     overflow-x: scroll;
+     align-items: center;
+     justify-content: center;
 }
 
 .listC::-webkit-scrollbar {

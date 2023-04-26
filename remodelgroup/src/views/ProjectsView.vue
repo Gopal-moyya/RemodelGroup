@@ -4,16 +4,14 @@
       <img :src="data.projectsData.bannerImage" width="1300" height="450" />
     </div>
     <div class="projectInfo">
-      <div class="bannerInfo">{{ data.projectsData.tagline }}</div>
       <div class="projectsTitle">{{ data.projectsData.title }}</div>
       <div class="desc1">{{ data.projectsData.desc1 }}</div>
-        </div>
-       <div class="listItems">
+    </div>
+    <div class="listItems">
       <ProjectList
         origin="projects"
         :listItems="data.projectsData.projects"
       ></ProjectList>
-  
     </div>
   </div>
 </template>
@@ -30,20 +28,20 @@ const data = reactive({
 .projectInfo {
   box-sizing: border-box;
   margin: auto;
-  padding: 40px;
+  padding-top: 40px;
   position: relative;
-    /* border: 3px solid #73AD21; */
+  /* border: 3px solid #73AD21; */
   width: 100%;
-  max-width: 1024px;
+  max-width: 1300px;
   text-align: left;
 }
 .listItems {
   box-sizing: border-box;
   margin: auto;
   position: relative;
-  padding-left:155px;
-    /* border: 3px solid #73AD21; */
-  width: 1280px;
+  /* padding-left:155px; */
+  /* border: 3px solid #73AD21; */
+  width: 1300px;
   /* max-width: 1024px; */
   text-align: left;
 }
@@ -59,9 +57,10 @@ const data = reactive({
   cursor: pointer;
 }
 .projectsTitle {
-  color: #00c858;
+  font-family: "poppinsBold";
+  font-weight: 700;
+  color: #090a0a;
   font-size: 30px;
-  font-style: bold;
   line-height: 42px;
   margin: 22px 0 44px;
 }
