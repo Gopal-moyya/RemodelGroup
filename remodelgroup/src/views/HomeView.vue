@@ -21,12 +21,12 @@ const data = reactive({
 
 <style scoped>
 .video {
-  height: 100vh;
+  height: 60vh;
   width: 100vw;
   object-fit: fill;
 }
 .list {
- margin-left: 138px;
+ margin-left: 12%;
 }
 </style>
 

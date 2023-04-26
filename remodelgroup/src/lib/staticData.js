@@ -1,6 +1,5 @@
 export const products = {
-    backgroundImage: require('@/assets/background.jpg'),
-    bannerImage: require('@/assets/products/product-banner.jpg'),
+    bannerImage: require('@/assets/projects/project-banner.jpg'),
     title: 'Our Products',
     tagline: 'Tagline for the banner',
     desc1: 'Description 1',
@@ -55,7 +54,7 @@ export const homeData = {
     ]
 }
 export const projects = {
-    bannerImage: require('@/assets/products/product-banner.jpg'),
+    bannerImage: require('@/assets/projects/project-banner.jpg'),
     title: 'Projects',
     tagline: 'Silicone Roofing TG',
     desc1:'Description',
@@ -81,7 +80,6 @@ export const projects = {
     ]
 }
 export const Contacts={
-    bannerImage: "require('@/assets/products/product-banner.jpg')",
     contact_details:[
         {
             title:"Company name",

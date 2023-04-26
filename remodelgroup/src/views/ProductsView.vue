@@ -1,7 +1,7 @@
 <template>
   <div class="outer">
     <div class="banner">
-      <img :src="data.productsData.bannerImage" width="1280" height="480" >
+      <img :src="data.productsData.bannerImage" width="1300" height="450" >
     </div>
     <div class="productInfo">
       <div class="bannerInfo">{{data.productsData.tagline}}</div>
@@ -23,7 +23,7 @@ const data = reactive({
 </script>
 <style scoped>
 .banner {
-  max-width: 1280;
+  max-width: 1300;
   width: 100%;
 }
 .productInfo {

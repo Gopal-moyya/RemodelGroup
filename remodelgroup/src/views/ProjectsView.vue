@@ -1,7 +1,7 @@
 <template>
   <div class="outer">
     <div class="banner">
-      <img :src="data.projectsData.bannerImage" width="1280" height="480" />
+      <img :src="data.projectsData.bannerImage" width="1300" height="450" />
     </div>
     <div class="projectInfo">
       <div class="bannerInfo">{{ data.projectsData.tagline }}</div>

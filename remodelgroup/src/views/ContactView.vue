@@ -2,8 +2,8 @@
   <div class="container">
     <div class="wrapper">
       <div class="Banner">
-        <div class="Image">
-          <img v-bind:src="Banner_image" width="1510" height="496" />
+        <div class="image">
+          <img v-bind:src="Banner_image" width="1300" height="450" />
         </div>
       </div>
       <div class="flexclass">
@@ -27,20 +27,20 @@
         </div>
         <div class="contactthree">
           <div class="threeContent">
-            <h3>SEND EMAIL</h3>
-            <h4 class="name">name</h4>
+            <h2>SEND EMAIL</h2>
+            <h4 class="name">Name</h4>
             <input type="text" class="input" />
             <h4 class="name">Email</h4>
             <input type="text" class="input" />
-            <h4 class="name">contact</h4>
+            <h4 class="name">Contact</h4>
             <input type="text" class="input" />
-            <h4 class="comment">comment</h4>
+            <h4 class="comment">Comment</h4>
             <textarea
-              id="w3review"
-              name="w3review"
-              rows="10"
-              cols="40"
-              class="textarea"
+                id="w3review"
+                name="w3review"
+                rows="10"
+                cols="40"
+                class="textarea"
             ></textarea><br><br>
             <button type="button">Submit</button>
           </div>
@@ -67,11 +67,8 @@ export default {
 .container {
   width: 100%;
   display: flex;
-  text-align: center;
-  justify-content: center;
-}
-.textarea{
-  margin-left: 100px;
+  text-align: left;
+  justify-content: left;
 }
 .wrapper {
   width: 80%;
@@ -88,22 +85,17 @@ export default {
   display: flex;
 }
 button{
+  margin-top: 35px;
   color: brown;
   background-color: bisque;
-  margin-left: 120px;
+  width: 120px;
+  height: 60px;
+  font-size: 25px;
 }
-
-
 .Silicon {
   margin-top: 50px;
   font-weight: 600;
   color: #999;
-}
-.name{
-  margin-left: -150px;
-}
-.comment{
-   margin-left: -130px;
 }
 
 .flexclass {
@@ -142,8 +134,11 @@ button{
   width: 50%;
   display: flex;
 }
-
 .threeContent {
-  margin-top: 150px;
+  margin-top: 40px;
+  margin-left: 150px;
+}
+.image {
+  margin-left: 205px;
 }
 </style>
