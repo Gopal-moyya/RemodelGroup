@@ -15,14 +15,15 @@ import {homeData} from '@/lib/staticData.js'
 import { reactive } from 'vue'
 const data = reactive({
     homelist: homeData,
-    video: "http://commondatastorage.googleapis.com/gtv-videos-bucket/sample/BigBuckBunny.mp4"
+    video: "https://commondatastorage.googleapis.com/gtv-videos-bucket/sample/ElephantsDream.mp4"
 })
 </script>
 
 <style scoped>
 .video {
-  width: 1920px;
-  height: 869px;
+  height: 100vh;
+  width: 100vw;
+  object-fit: fill;
 }
 .list {
  margin-left: 138px;
